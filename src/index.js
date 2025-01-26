@@ -15,6 +15,9 @@ const routes = {
   ["ghcr." + CUSTOM_DOMAIN]: "https://ghcr.io",
   ["cloudsmith." + CUSTOM_DOMAIN]: "https://docker.cloudsmith.io",
   ["ecr." + CUSTOM_DOMAIN]: "https://public.ecr.aws",
+  ["mariadb-registry1." + CUSTOM_DOMAIN]: "https://docker-registry1.mariadb.com",
+  ["mariadb-registry2." + CUSTOM_DOMAIN]: "https://docker-registry2.mariadb.com",
+  ["mariadb-registry3." + CUSTOM_DOMAIN]: "https://docker-registry3.mariadb.com",
 
   // staging
   ["docker-staging." + CUSTOM_DOMAIN]: dockerHub,
